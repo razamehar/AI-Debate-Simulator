@@ -1,4 +1,4 @@
-# AI Conversation Moderation System
+# Chat between two AI Models
 
 This project enables a human moderator to oversee a conversation between two AI models, Model1 and Model2, on a specified topic. The system prompts the moderator to set the topic and allows them to decide which model responds at each turn. By calling Model1 or Model2, the moderator directs the discussion, ensuring both perspectives are explored. The entire conversation is logged for review after the session.
 ## Description
