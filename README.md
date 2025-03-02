@@ -53,8 +53,13 @@ The system allows the user to:
 
 ```bash
 $ python conversation_system.py
-[User input]: "What do you think about the topic?"
-[System Response]: Model1: Response from Model1
-[User input]: "Now Model2"
-[System Response]: Model2: Response from Model2
+Enter your name: Raza
+Hello Raza! You will act as the moderator, facilitating a discussion between OpenAI and Llama. You can start by providing your name, a topic for the chat, and throughout the session, you may ask either model to respond.
+Raza, please enter a topic name for the chat or type 'exit' to leave: Can AI surpass human level intelligence?
+That's an interesting topic, Raza. The stage is all yours. Please type 'exit' to leave.
+Raza: What do you have to say about the topic, Model1?
+Model1: It's possible for AI to match human intelligence in specific tasks, yet surpassing overall human intelligence is still debated due to consciousness, creativity, and emotional understanding.
+Raza: Do you agree with the above statement, Model2? Or, do you disagree?
+Model2: Agreed. While AI can excel in certain areas, aspects like intuition, empathy, and common sense remain challenging to replicate comprehensively.
+
 ...
