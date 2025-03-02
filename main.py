@@ -39,7 +39,7 @@ while True:
         print("Model2:", result2.content)
 
     else:
-        print("Who should response: Model1 or Model?")
+        print("Who should response: Model1 or Model2?")
 
 
 print("\nChat Summary:")
