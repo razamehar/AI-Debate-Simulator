@@ -60,25 +60,12 @@ def chat(user_name, topic, model1, model2):
 
         result = branch_chain.invoke({'user_input': user_input, 'topic': topic, 'user_name': user_name, 'chat_history': chat_history})
         chat_history.append(AIMessage(content=result))
-        print(model_name yo, result)
-
-        '''elif "model1" in user_input:
-            chain1 = prompt1 | model1 | parser
-            result1 = chain1.invoke({'topic': topic, 'user_name': user_name, 'chat_history': chat_history})
-            chat_history.append(AIMessage(content=result1))
-            print("Model1:", result1)
-
-        elif "model2" in user_input:
-            chain2 = prompt2 | model2 | parser
-            result2 = chain2.invoke({'topic': topic, 'user_name': user_name, 'chat_history': chat_history})
-            chat_history.append(AIMessage(content=result2))
-            print("Model2:", result2)
-
-        else:
-            print("Invalid choice. Please select 'Model1' or 'Model2'.")'''
+        print(model_name, result)
 
 
     print("\nChat Summary:")
     for message in chat_history:
         if isinstance(message, (HumanMessage, AIMessage)):
             print(f"{message.__class__.__name__}: {message.content}")
+
+    

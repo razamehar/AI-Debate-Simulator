@@ -62,3 +62,9 @@ Raza: Do you agree with the above statement, Model2? Or, do you disagree?
 Model2: Agreed. While AI can excel in certain areas, aspects like intuition, empathy, and common sense remain challenging to replicate comprehensively.
 
 ...
+
+## License
+This project is licensed under the Raza Mehar License. See the LICENSE.md file for details.
+
+## Contact
+For any questions or clarifications, please contact Raza Mehar at [raza.mehar@gmail.com].
