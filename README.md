@@ -60,8 +60,7 @@ Raza: What do you have to say about the topic, Model1?
 Model1: It's possible for AI to match human intelligence in specific tasks, yet surpassing overall human intelligence is still debated due to consciousness, creativity, and emotional understanding.
 Raza: Do you agree with the above statement, Model2? Or, do you disagree?
 Model2: Agreed. While AI can excel in certain areas, aspects like intuition, empathy, and common sense remain challenging to replicate comprehensively.
-
-...
+```
 
 ## License
 This project is licensed under the Raza Mehar License. See the LICENSE.md file for details.
