@@ -1,4 +1,4 @@
-# AI Debate Simulator: Dynamic Agent-Based Argumentation
+# AI Debate Simulator: Dynamic Model-Based Argumentation
 
 This project enables a human moderator to oversee a debate between two AI models on a specified topic. Model1 argues in favor, while Model2 argues against. The moderator sets the topic and directs the discussion by selecting which model responds. The conversation is logged for review
 
